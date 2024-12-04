@@ -84,6 +84,7 @@ const workerConfig = {
       name: 'NeZha',
       method: 'GET',
       target: 'https://nezha.xuanzi.ggff.net'
+      
     },
     {
       id: 'docker-img',
@@ -105,7 +106,7 @@ const workerConfig = {
       target: 'https://epe.xylon.us.kg/',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://epe.xylon.us.kg/',
-      timeout: 10000,
+      timeout: 5000,
     },
  
 
