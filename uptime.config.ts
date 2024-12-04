@@ -76,8 +76,14 @@ const workerConfig = {
       // `target` should be `host:port` for tcp monitors
       target: 'https://xylonstar.us.kg/',
       // tooltip: 'My production server SSH',
-      // statusPageLink: 'https://example.com',
+      statusPageLink: 'https://xylonstar.us.kg/',
       timeout: 5000,
+    },
+    {
+      id: 'nezha',
+      name: 'NeZha',
+      method: 'GET',
+      target: 'https://nezha.xuanzi.ggff.net'
     },
 
   ],
