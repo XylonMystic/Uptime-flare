@@ -1,6 +1,6 @@
 const pageConfig = {
   // Title for your status page
-  title: "lyc8503's Status Page",
+  title: "xylonstar 服务监控",  // lyc8503's Status Page
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://github.com/xylonify', label: 'GitHub' },
@@ -49,6 +49,17 @@ const workerConfig = {
     // },
     // Example TCP Monitor
     {
+      id: 'cloudflare-blog',
+      name: 'Cloudflare CDN',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://xylonstar.us.kg/',
+      // tooltip: 'My production server SSH',
+      statusPageLink: 'https://xylonstar.us.kg/',
+      timeout: 5000,
+    },
+    {
       id: 'vercel-blog',
       name: 'Vercel CDN',
       // `method` should be `TCP_PING` for tcp monitors
@@ -69,22 +80,34 @@ const workerConfig = {
       timeout: 5000,
     },
     {
-      id: 'cf-blog',
-      name: 'Cloudflare CDN',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
-      // `target` should be `host:port` for tcp monitors
-      target: 'https://xylonstar.us.kg/',
-      // tooltip: 'My production server SSH',
-      statusPageLink: 'https://xylonstar.us.kg/',
-      timeout: 5000,
-    },
-    {
       id: 'nezha',
       name: 'NeZha',
       method: 'GET',
       target: 'https://nezha.xuanzi.ggff.net'
     },
+    {
+      id: 'docker-img',
+      name: 'DockerHub',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://docker.nf98999881.us.kg/',
+      // tooltip: 'My production server SSH',
+      statusPageLink: 'https://docker.nf98999881.us.kg/',
+      timeout: 5000,
+    },
+    {
+      id: 'epe',
+      name: 'epe',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://epe.xylon.us.kg/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://epe.xylon.us.kg/',
+      timeout: 10000,
+    },
+ 
 
   ],
   notification: {
