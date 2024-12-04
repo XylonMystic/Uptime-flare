@@ -1,6 +1,6 @@
 const pageConfig = {
   // Title for your status page
-  title: "xylonstar 服务监控",  // lyc8503's Status Page
+  title: "xylonstar's Status Page",  // lyc8503's Status Page
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://github.com/xylonify', label: 'GitHub' },
@@ -55,7 +55,7 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://xylonstar.us.kg/',
-      tooltip: 'My blog server SSH',
+      tooltip: 'My blog server monitor',
       statusPageLink: 'https://xylonstar.us.kg/',
       timeout: 5000,
     },
