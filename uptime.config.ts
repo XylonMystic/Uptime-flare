@@ -57,7 +57,7 @@ const workerConfig = {
       target: 'https://vercel.xylonstar.us.kg/',
       // tooltip: 'My production server SSH',
       // statusPageLink: 'https://example.com',
-      timeout: 10000,
+      timeout: 5000,
     },
     {
       id: 'netlify-blog',
@@ -66,7 +66,7 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://netlify.xylonstar.us.kg/',
-      timeout: 10000,
+      timeout: 5000,
     },
     {
       id: 'cf-blog',
@@ -77,7 +77,7 @@ const workerConfig = {
       target: 'https://xylonstar.us.kg/',
       // tooltip: 'My production server SSH',
       // statusPageLink: 'https://example.com',
-      timeout: 10000,
+      timeout: 5000,
     },
 
   ],
