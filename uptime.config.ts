@@ -55,7 +55,7 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://xylonstar.us.kg/',
-      // tooltip: 'My production server SSH',
+      tooltip: 'My blog server SSH',
       statusPageLink: 'https://xylonstar.us.kg/',
       timeout: 5000,
     },
@@ -67,7 +67,7 @@ const workerConfig = {
       // `target` should be `host:port` for tcp monitors
       target: 'https://vercel.xylonstar.us.kg/',
       // tooltip: 'My production server SSH',
-      // statusPageLink: 'https://example.com',
+      statusPageLink: 'https://vercel.xylonstar.us.kg',
       timeout: 5000,
     },
     {
@@ -77,14 +77,19 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://netlify.xylonstar.us.kg/',
+      statusPageLink: 'https://netlify.xylonstar.us.kg',
       timeout: 5000,
     },
     {
       id: 'nezha',
       name: 'NeZha',
+      // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
-      target: 'https://nezha.xuanzi.ggff.net'
-      
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://nezha.xuanzi.ggff.net',
+      // tooltip: 'My production server SSH',
+      statusPageLink: 'https://nezha.xuanzi.ggff.net',
+      timeout: 5000,
     },
     {
       id: 'docker-img',
@@ -104,11 +109,65 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://epe.xylon.us.kg/',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://epe.xylon.us.kg/',
+      // tooltip: 'My production server monitor',
+      // statusPageLink: 'https://epe.xylon.us.kg/',
       timeout: 5000,
     },
- 
+    {
+      id: 'edt',
+      name: 'edt',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://edt.xylonify.us.kg/',
+      // tooltip: 'My production server monitor',
+      // statusPageLink: 'https://edt.xylonify.us.kg//',
+      timeout: 5000,
+    },
+    {
+      id: 'sub',
+      name: 'sub',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://sub.xylon.us.kg/',
+      // tooltip: 'My production server monitor',
+      // statusPageLink: 'https://epe.xylon.us.kg/',
+      timeout: 5000,
+    },
+    {
+      id: 'cfnat',
+      name: 'Cfnat',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://cfnat.xylon.us.kg/',
+      // tooltip: 'My production server monitor',
+      // statusPageLink: 'https://epe.xylon.us.kg/',
+      timeout: 5000,
+    },
+    {
+      id: 'yg',
+      name: 'Yg',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://yg.xylonify.us.kg/',
+      // tooltip: 'My production server monitor',
+      // statusPageLink: 'https://epe.xylon.us.kg/',
+      timeout: 5000,
+    },
+    {
+      id: '3K',
+      name: '3K',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://xylon.filegear-sg.me',
+      // tooltip: 'My production server monitor',
+      // statusPageLink: 'https://epe.xylon.us.kg/',
+      timeout: 5000,
+    },
 
   ],
   notification: {
