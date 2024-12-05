@@ -111,7 +111,7 @@ const workerConfig = {
       target: 'https://ghp.nf98999881.us.kg/',
       // tooltip: 'My production server SSH',
       statusPageLink: 'https://ghp.nf98999881.us.kg/',
-      timeout: 10000,
+      // timeout: 10000,
     },
     {
       id: 'epe',
