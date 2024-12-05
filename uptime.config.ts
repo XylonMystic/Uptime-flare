@@ -57,7 +57,7 @@ const workerConfig = {
       target: 'https://xylonstar.us.kg/',
       tooltip: 'My blog server monitor',
       statusPageLink: 'https://xylonstar.us.kg/',
-      timeout: 5000,
+      timeout: 10000,
     },
     {
       id: 'vercel-blog',
@@ -68,7 +68,7 @@ const workerConfig = {
       target: 'https://vercel.xylonstar.us.kg/',
       // tooltip: 'My production server SSH',
       statusPageLink: 'https://vercel.xylonstar.us.kg',
-      timeout: 5000,
+      timeout: 10000,
     },
     {
       id: 'netlify-blog',
@@ -78,7 +78,7 @@ const workerConfig = {
       // `target` should be `host:port` for tcp monitors
       target: 'https://netlify.xylonstar.us.kg/',
       statusPageLink: 'https://netlify.xylonstar.us.kg',
-      timeout: 5000,
+      timeout: 10000,
     },
     {
       id: 'nezha',
@@ -89,7 +89,7 @@ const workerConfig = {
       target: 'https://nezha.xuanzi.ggff.net',
       // tooltip: 'My production server SSH',
       statusPageLink: 'https://nezha.xuanzi.ggff.net',
-      timeout: 5000,
+      timeout: 10000,
     },
     {
       id: 'docker-img',
@@ -100,7 +100,18 @@ const workerConfig = {
       target: 'https://docker.nf98999881.us.kg/',
       // tooltip: 'My production server SSH',
       statusPageLink: 'https://docker.nf98999881.us.kg/',
-      timeout: 5000,
+      timeout: 10000,
+    },
+    {
+      id: 'github-proxy',
+      name: 'GHP',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://ghp.nf98999881.us.kg/',
+      // tooltip: 'My production server SSH',
+      statusPageLink: 'https://ghp.nf98999881.us.kg/',
+      timeout: 10000,
     },
     {
       id: 'epe',
@@ -111,7 +122,7 @@ const workerConfig = {
       target: 'https://epe.xylon.us.kg/',
       // tooltip: 'My production server monitor',
       // statusPageLink: 'https://epe.xylon.us.kg/',
-      timeout: 5000,
+      timeout: 10000,
     },
     {
       id: 'edt',
@@ -122,7 +133,7 @@ const workerConfig = {
       target: 'https://edt.xylonify.us.kg/',
       // tooltip: 'My production server monitor',
       // statusPageLink: 'https://edt.xylonify.us.kg//',
-      timeout: 5000,
+      timeout: 10000,
     },
     {
       id: 'sub',
@@ -133,7 +144,7 @@ const workerConfig = {
       target: 'https://sub.xylon.us.kg/',
       // tooltip: 'My production server monitor',
       // statusPageLink: 'https://epe.xylon.us.kg/',
-      timeout: 5000,
+      timeout: 10000,
     },
     {
       id: 'cfnat',
@@ -144,7 +155,7 @@ const workerConfig = {
       target: 'https://cfnat.xylon.us.kg/',
       // tooltip: 'My production server monitor',
       // statusPageLink: 'https://epe.xylon.us.kg/',
-      timeout: 5000,
+      timeout: 10000,
     },
     {
       id: 'yg',
@@ -155,7 +166,7 @@ const workerConfig = {
       target: 'https://yg.xylonify.us.kg/',
       // tooltip: 'My production server monitor',
       // statusPageLink: 'https://epe.xylon.us.kg/',
-      timeout: 5000,
+      timeout: 10000,
     },
     {
       id: '3K',
@@ -166,17 +177,17 @@ const workerConfig = {
       target: 'https://xylon.filegear-sg.me',
       // tooltip: 'My production server monitor',
       // statusPageLink: 'https://epe.xylon.us.kg/',
-      timeout: 5000,
+      timeout: 10000,
     },
 
   ],
   notification: {
     // [Optional] apprise API server URL
     // if not specified, no notification will be sent
-    appriseApiServer: "https://apprise.example.com/notify",
+    // appriseApiServer: "https://apprise.example.com/notify",
     // [Optional] recipient URL for apprise, refer to https://github.com/caronc/apprise
     // if not specified, no notification will be sent
-    recipientUrl: "tgram://bottoken/ChatID",
+    recipientUrl: "tgram://7800260212:AAF7KxobR0YHvhAcw-D3z9cdI74mpXizCfs/7111074843",
     // [Optional] timezone used in notification messages, default to "Etc/GMT"
     timeZone: "Asia/Shanghai",
     // [Optional] grace period in minutes before sending a notification
