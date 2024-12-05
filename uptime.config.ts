@@ -66,7 +66,7 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://vercel.xylonstar.us.kg/',
-      // tooltip: 'My production server SSH',
+      tooltip: 'My blog server monitor',
       statusPageLink: 'https://vercel.xylonstar.us.kg',
       timeout: 10000,
     },
@@ -77,6 +77,7 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://netlify.xylonstar.us.kg/',
+      tooltip: 'My blog server monitor',
       statusPageLink: 'https://netlify.xylonstar.us.kg',
       timeout: 10000,
     },
@@ -87,7 +88,7 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://nezha.xuanzi.ggff.net',
-      // tooltip: 'My production server SSH',
+      tooltip: 'My server status',
       statusPageLink: 'https://nezha.xuanzi.ggff.net',
       timeout: 10000,
     },
@@ -98,7 +99,7 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://docker.nf98999881.us.kg/',
-      // tooltip: 'My production server SSH',
+      tooltip: 'My dockerhub server monitor',
       statusPageLink: 'https://docker.nf98999881.us.kg/',
       timeout: 10000,
     },
@@ -109,9 +110,10 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://ghp.nf98999881.us.kg/',
-      // tooltip: 'My production server SSH',
+      tooltip: 'My ghproxy server monitor',
       statusPageLink: 'https://ghp.nf98999881.us.kg/',
       // timeout: 10000,
+
     },
     {
       id: 'epe',
@@ -142,7 +144,7 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://sub.xylon.us.kg/',
-      // tooltip: 'My production server monitor',
+      tooltip: 'My proxy server monitor',
       // statusPageLink: 'https://epe.xylon.us.kg/',
       timeout: 10000,
     },
@@ -153,7 +155,7 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://cfnat.xylon.us.kg/',
-      // tooltip: 'My production server monitor',
+      tooltip: 'My proxy server monitor',
       // statusPageLink: 'https://epe.xylon.us.kg/',
       timeout: 10000,
     },
@@ -164,7 +166,7 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://yg.xylonify.us.kg/',
-      // tooltip: 'My production server monitor',
+      tooltip: 'My proxy server monitor',
       // statusPageLink: 'https://epe.xylon.us.kg/',
       timeout: 10000,
     },
@@ -175,7 +177,7 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://xylon.filegear-sg.me',
-      // tooltip: 'My production server monitor',
+      tooltip: 'My proxy server monitor',
       // statusPageLink: 'https://epe.xylon.us.kg/',
       timeout: 10000,
     },
