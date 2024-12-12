@@ -116,6 +116,17 @@ const workerConfig = {
 
     },
     {
+      id: 'bpb',
+      name: 'BPB',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://bp.xylon.us.kg',
+      tooltip: 'My bpb server monitor',
+      // statusPageLink: 'https://epe.xylon.us.kg/',
+      timeout: 10000,
+    },
+    {
       id: 'epe',
       name: 'epe',
       // `method` should be `TCP_PING` for tcp monitors
@@ -178,6 +189,17 @@ const workerConfig = {
       // `target` should be `host:port` for tcp monitors
       target: 'https://xylon.filegear-sg.me',
       tooltip: 'My proxy server monitor',
+      // statusPageLink: 'https://epe.xylon.us.kg/',
+      timeout: 10000,
+    },
+    {
+      id: 'br',
+      name: 'br',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://br.xylonify.us.kg/',
+      tooltip: 'My br server monitor',
       // statusPageLink: 'https://epe.xylon.us.kg/',
       timeout: 10000,
     },
