@@ -116,6 +116,17 @@ const workerConfig = {
 
     },
     {
+      id: 'br',
+      name: 'br',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://br.xylonify.us.kg/',
+      tooltip: 'My br server monitor',
+      statusPageLink: 'https://br.xylon.us.kg/',
+      timeout: 10000,
+    },
+    {
       id: 'bpb',
       name: 'BPB',
       // `method` should be `TCP_PING` for tcp monitors
@@ -192,17 +203,7 @@ const workerConfig = {
       // statusPageLink: 'https://epe.xylon.us.kg/',
       timeout: 10000,
     },
-    {
-      id: 'br',
-      name: 'br',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
-      // `target` should be `host:port` for tcp monitors
-      target: 'https://br.xylonify.us.kg/',
-      tooltip: 'My br server monitor',
-      // statusPageLink: 'https://epe.xylon.us.kg/',
-      timeout: 10000,
-    },
+
 
   ],
   notification: {
