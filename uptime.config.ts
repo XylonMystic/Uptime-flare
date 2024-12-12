@@ -121,7 +121,7 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://epe.xylon.us.kg/',
+      target: 'https://ct.xylonify.us.kg/',
       tooltip: 'My proxy server monitor',
       // statusPageLink: 'https://epe.xylon.us.kg/',
       timeout: 10000,
@@ -132,7 +132,7 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://edt.xylonify.us.kg/',
+      target: 'https://ce.xylonify.us.kg/',
       tooltip: 'My proxy server monitor',
       // statusPageLink: 'https://edt.xylonify.us.kg//',
       timeout: 10000,
