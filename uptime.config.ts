@@ -127,6 +127,17 @@ const workerConfig = {
       timeout: 10000,
     },
     {
+      id: 'im',
+      name: 'im',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://br.xuanzi.ggff.net/',
+      tooltip: 'My br server monitor',
+      // statusPageLink: 'https://br.xylonify.us.kg/',
+      timeout: 10000,
+    },
+    {
       id: 'bpb',
       name: 'BPB',
       // `method` should be `TCP_PING` for tcp monitors
