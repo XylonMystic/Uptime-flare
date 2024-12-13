@@ -134,7 +134,7 @@ const workerConfig = {
       // `target` should be `host:port` for tcp monitors
       target: 'https://br.xuanzi.ggff.net/',
       tooltip: 'My br server monitor',
-      // statusPageLink: 'https://br.xylonify.us.kg/',
+      statusPageLink: 'https://br.xuanzi.ggff.net/',
       timeout: 10000,
     },
     {
@@ -214,6 +214,18 @@ const workerConfig = {
       // statusPageLink: 'https://epe.xylon.us.kg/',
       timeout: 10000,
     },
+    {
+      id: 'hq',
+      name: 'hq',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://hqz.xylon.us.kg',
+      tooltip: 'My proxy server monitor',
+      // statusPageLink: 'https://epe.xylon.us.kg/',
+      timeout: 10000,
+    },
+
 
 
   ],
