@@ -1,6 +1,6 @@
 const pageConfig = {
   // Title for your status page
-  title: "xylonstar's Status Page",  // lyc8503's Status Page
+  title: "Xylonstar's Status Page",  // lyc8503's Status Page
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://github.com/xylonify', label: 'GitHub' },
@@ -126,17 +126,17 @@ const workerConfig = {
       timeout: 10000,
 
     },
-    // {
-    //   id: 'siteproxy',
-    //   name: 'SiteProxy',
-    //   // `method` should be `TCP_PING` for tcp monitors
-    //   method: 'GET',
-    //   // `target` should be `host:port` for tcp monitors
-    //   target: 'https://site.xonstar.us.kg/',
-    //   tooltip: 'My proxy server monitor',
-    //   statusPageLink: 'https://site.xonstar.us.kg/',
-    //   timeout: 10000,
-    // },
+    {
+      id: 'siteproxy',
+      name: 'SiteProxy',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://site.xonstar.us.kg/',
+      tooltip: 'My proxy server monitor',
+      statusPageLink: 'https://site.xonstar.us.kg/',
+      timeout: 10000,
+    },
     {
       id: 'nextchat',
       name: 'NextChat',
