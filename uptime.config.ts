@@ -126,31 +126,31 @@ const workerConfig = {
       timeout: 10000,
 
     },
-    // {
-    //   id: 'siteproxy',
-    //   name: 'SiteProxy',
-    //   // `method` should be `TCP_PING` for tcp monitors
-    //   method: 'GET',
-    //   // `target` should be `host:port` for tcp monitors
-    //   target: 'https://site.xonstar.us.kg/',
-    //   tooltip: 'My proxy server monitor',
-    //   statusPageLink: 'https://site.xonstar.us.kg/',
-    //   timeout: 10000,
-    // },
     {
-      id: 'nextchat',
-      name: 'NextChat',
+      id: 'cloud',
+      name: 'Cloud',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://pan.xons.us.kg/',
+      tooltip: 'My cloud server monitor',
+      statusPageLink: 'https://pan.xons.us.kg/',
+      timeout: 10000,
+    },
+    {
+      id: 'gemini',
+      name: 'Gemini',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://nc.xons.us.kg/',
-      tooltip: 'My chatgpt server monitor',
+      tooltip: 'My gemini server monitor',
       statusPageLink: 'https://nc.xons.us.kg/',
       timeout: 10000,
     },
     {
-      id: 'gpt',
-      name: 'GPT',
+      id: 'nextchat',
+      name: 'NextChat',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
